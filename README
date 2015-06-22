@@ -1,0 +1,31 @@
+SON (Simple Object Notation) data interchange format.
+
+Simple data format similar to JSON, but with some minor changes:
+    - comments starts with # sign and ends with newline (\n)
+    - comma after a key-value pair is optional
+    - comma after an array element is optional
+
+JSON is compatible with SON in a sense that
+JSON data is also SON data, but not vise versa.
+
+SON data example:
+
+    {
+        # Personal information
+    
+        "name": "Alexander Grothendieck"
+        "fields": "mathematics"
+        "main_topics": ["Etale cohomology"  "Motives"  "Topos theory"  "Schemes"]
+    }
+
+License: Public Domain.
+NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.
+
+Original JSON data format was specified by Douglas Crockford.
+
+
+Links:
+https://github.com/aleksandergurin/simple-object-notation
+http://json.org
+https://github.com/douglascrockford/JSON-js
+https://tools.ietf.org/html/rfc7159
