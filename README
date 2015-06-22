@@ -15,7 +15,12 @@ SON data example:
     
         "name": "Alexander Grothendieck"
         "fields": "mathematics"
-        "main_topics": ["Etale cohomology"  "Motives"  "Topos theory"  "Schemes"]
+        "main_topics": [
+            "Etale cohomology"
+            "Motives"
+            "Topos theory"
+            "Schemes"
+        ]
     }
 
 License: Public Domain.
